@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://images.unsplash.com/photo-1506083263665-0f7fc0426168?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45b7300bcab850db36a56c55f9a64f12&auto=format&fit=crop&w=1950&q=80) bottom center;
   background-size: cover;
 }
 body,html {
@@ -18,7 +18,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(94,94,94);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -27,14 +27,14 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(94,94,94,0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #de7363;
+  box-shadow: 0 0 1rem #de7363;
 }
 
 kbd {
@@ -46,5 +46,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #de7363;
 }
